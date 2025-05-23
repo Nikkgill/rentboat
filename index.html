@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bunty Boat Town - Rent or Buy Water Boats & Bikes</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+    <h1>Bunty Boat Town</h1>
+    <div class="tagline">Your Trusted Partner for Water Adventures</div>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#products">Products</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+        <a href="login.html" id="nav-login">Login</a>
+        <a href="signup.html" id="nav-signup">Sing</a>
+        <a href="#" id="nav-logout" style="display:none;">Logout</a>
+    </nav>
+</header>
+    <section id="home" class="hero">
+        <div class="hero-text">
+    <h2>Buy or Rent Water Boats & Bikes</h2>
+    <p>Experience the thrill of water rides with our premium boats and bikes. Available for rent and purchase!</p>
+    <a href="#products" class="cta-btn">Explore Products</a>
+</div>
+    </section>
+    <section id="products">
+        <h2>Our Products</h2>
+        <div class="product-list">
+    <div class="product-card">
+        <img src="/img/b.jpg" alt="Speed Water Boat - blue pontoon boat">
+        <h3>Speed Water Boat</h3>
+        <p>Fast, safe, and stylish. Perfect for adventure seekers.</p>
+        <div class="price">4000₹ for 2 hours</div>
+        <a href="#" class="cta-btn" id="rent-speed-boat" onclick="handleRentNow('Speed Water Boat')" style="width:100%;display:inline-block;text-align:center;margin-top:0.5rem;">Rent Now</a>
+    </div>
+    <div class="product-card">
+        <img src="/img/c.jpg" alt="Water Bike - pedal powered">
+        <h3>Water Bike</h3>
+        <p>Pedal your way on water! Fun for all ages.</p>
+        <div class="price">5000₹ for 2 hours</div>
+        <a href="#" class="cta-btn" id="rent-water-bike" onclick="handleRentNow('Water Bike')" style="width:100%;display:inline-block;text-align:center;margin-top:0.5rem;">Rent Now</a>
+    </div>
+    <div class="product-card">
+        <img src="/img/e.jpg" alt="Luxury Water Boat - premium">
+        <h3>Luxury Water Boat</h3>
+        <p>Ultimate comfort and style for your water adventure.</p>
+        <div class="price">6000₹ for 2 hours</div>
+        <a href="#" class="cta-btn" id="rent-luxury-boat" onclick="handleRentNow('Luxury Water Boat')" style="width:100%;display:inline-block;text-align:center;margin-top:0.5rem;">Rent Now</a>
+    </div>
+</div>
+    </section>
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <div class="gallery-list">
+            <img src="/img/d.jpg" alt="Boat on water - gallery photo">
+            <img src="/img/e.jpg" alt="Luxury Boat on water - gallery photo">
+            <img src="/img/b.jpg" alt="Water Bike on lake - gallery photo">
+        </div>
+    </section>
+    <section id="contact">
+    <h2>Contact & Booking</h2>
+    <div class="contact-info">
+    <p><strong><span class="icon">📞</span> Customer Care:</strong> <a href="tel:6280036889">6280036889</a></p>
+    <p><strong><span class="icon">✉️</span> Email:</strong> <a href="mailto:nikkgill34@gmail.com">nikkgill34@gmail.com</a></p>
+</div>
+    <form>
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Message or Booking Details" required></textarea>
+        <button type="submit">Send</button>
+    </form>
+</section>
+    <section id="testimonials">
+        <h2>What Our Customers Say</h2>
+        <div class="testimonials-list">
+            <div class="testimonial">
+                <p>"Amazing experience! The boat was in perfect condition and the staff was super friendly."</p>
+                <span>- Aman S.</span>
+            </div>
+            <div class="testimonial">
+                <p>"Loved the water bike ride. Easy booking and great customer care!"</p>
+                <span>- Priya G.</span>
+            </div>
+            <div class="testimonial">
+                <p>"Best place to rent boats for a fun day out with family. Highly recommended!"</p>
+                <span>- Rohit K.</span>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2025 Bunty Boat Town. All rights reserved.</p>
+    </footer>
+</body>
+</html>

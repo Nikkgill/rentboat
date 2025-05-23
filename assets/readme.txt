@@ -1,0 +1,1 @@
+This folder contains image assets for the Bunty Boat Town website. Add images such as boat1.jpg, boat2.jpg, boat3.jpg, bike1.jpg, and bike2.jpg here. You can use free stock images from sites like Unsplash or Pexels as placeholders if you don't have your own images yet.
